@@ -1,0 +1,146 @@
+body {
+    background: gray;
+    width: 99%;
+    height: 100px;
+}
+
+#header-lista { 
+    margin-left: 70px ;
+    text-align: center;
+    background: red;
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+#lista-de-tareas {
+    text-align: center;
+    font-size: auto;
+}
+
+#div-todo{
+  width: auto;
+  height: auto;
+}
+
+#div-center {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    
+}
+
+#input-escribir {
+    text-align: center;
+    background: black;
+    color: white;
+    
+}
+#boton-agregar {
+    position: static;
+  background: red;
+  color: white;
+  top: 16px;
+}
+
+#hr {
+    width: 100%;
+}
+
+#input-boton {
+    width: 100%;
+       
+}
+
+.boton-eliminar {
+    background: red;
+    color: white;
+}
+
+#ul {
+    list-style: none;
+   text-align: center;
+   width: 70%;
+   height: 150px;
+   overflow-y: scroll;
+}
+
+#boton-borrar {
+    text-align: center;
+}
+#borrar {
+    background: red;
+    color: white;
+}
+         /* movil */
+ @media only screen and (max-width : 425px) {
+    body {
+        background: rgb(187, 187, 187);
+    }
+    #div-todo {
+        flex-direction: column;
+    }
+    #header-lista {
+        background: blue;
+        width: 210px;
+    }
+    #lista-de-tareas {
+        color: black;
+    }
+    #input-escribir {
+        background: blue;
+        color: white;
+    }
+
+    #boton-agregar {
+        background: blue;
+        color: black;
+    }
+    .boton-eliminar {
+     background: red;
+     color: black;
+    }
+
+ }
+           /* escritorio */
+ @media only screen and (min-width : 426px) {
+   #header-lista {
+    display: block;
+    text-align: center;
+    width: 1200px;
+    height: 60px;
+   }
+   #lista-de-tareas {
+    font-size: 50px;
+   }
+   #input-escribir {
+    text-align: center;
+    background: black;
+    color: white;
+    width: 600px;
+    height: 40px;
+   }
+   #boton-agregar {
+    position: static;
+    background: red;
+     color: white;
+     width: 120px;
+     height: 45px;
+     font-size: 25px;
+   }
+   #input-boton {
+     width: 100%;
+   }
+   #ul {
+    text-align: center;
+    width: 1200px;
+    height: 150px;
+   }
+   #borrar {
+    width: 120px;
+    height: 45px;
+    font-size: 15px;
+   }
+   }
+   
+    
